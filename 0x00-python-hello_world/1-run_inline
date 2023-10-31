@@ -1,3 +1,2 @@
 #!/bin/bash
-echo -e "$PYCODE" > temp.py; python temp.py
-
+echo "$PYCODE" | python -
