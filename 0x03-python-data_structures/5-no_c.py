@@ -1,0 +1,7 @@
+def no_c(my_string):
+    new_str = ""
+
+    for char in my_string:
+        if char not in ["C", "c"]:
+            new_str += char
+    return new_str
